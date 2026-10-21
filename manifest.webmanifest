@@ -1,0 +1,33 @@
+{
+ "name": "Kranfinder – Hölzl Kran",
+ "short_name": "Kranfinder",
+ "lang": "de",
+ "description": "Passenden Kran finden, Traglast ablesen, Angebot erstellen.",
+ "id": "./",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "orientation": "any",
+ "background_color": "#15202b",
+ "theme_color": "#15202b",
+ "icons": [
+  {
+   "src": "icons/icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "icons/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "icons/icon-maskable-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ]
+}
