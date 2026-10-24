@@ -1,7 +1,7 @@
-/* Kranfinder Service Worker – Version b75943fb69
+/* Kranfinder Service Worker – Version 0461571496
    Start immer aus dem Gerätespeicher (schnell, auch offline). Neue Versionen kommen über ein Update
    dieses Service Workers: Er lädt im Hintergrund alles neu, danach zeigt die App „Neue Version geladen“. */
-const C='kranfinder-b75943fb69';
+const C='kranfinder-0461571496';
 const PRE=['./','manifest.webmanifest',"icons/icon-192.png","icons/icon-512.png","icons/icon-maskable-512.png","icons/apple-touch-icon.png","icons/favicon-64.png"];
 /* umgeleitete Antworten (z. B. /index.html → /) „sauber“ speichern – sonst wären sie für Seitenaufrufe unbrauchbar */
 const clean=r=>r.redirected?r.blob().then(b=>new Response(b,{status:r.status,statusText:r.statusText,headers:r.headers})):Promise.resolve(r);
