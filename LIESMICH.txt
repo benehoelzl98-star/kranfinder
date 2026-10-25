@@ -1,3 +1,3 @@
 KRANFINDER – APP FÜRS SMARTPHONE
 Wird von Claude in das GitHub-Repo benehoelzl98-star/kranfinder geladen (GitHub Pages).
-Eingebetteter Teamstand: 18.10.2026 01:47 · Build b482752311
+Eingebetteter Teamstand: 18.10.2026 01:47 · Build aaa8d7274e
